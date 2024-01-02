@@ -28,6 +28,23 @@ body {
     color: var(--text-color);
 }
 
+.header .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px; /* Sesuaikan dengan ukuran yang diinginkan */
+    height: 60px; /* Sesuaikan dengan ukuran yang diinginkan */
+    border-radius: 50%;
+    overflow: hidden;
+    background-color: #112e42; /* Warna latar belakang, sesuaikan dengan kebutuhan Anda */
+}
+
+.rounded-logo {
+    width: 100%; /* Memastikan gambar mengisi kotak dengan benar */
+    height: auto; /* Mempertahankan rasio aspek gambar */
+    border-radius: 50%;
+}
+
 .header {
     position: fixed;
     top: 0;
@@ -259,7 +276,7 @@ span {
 .profile-img {
     position: relative;
     width: 25rem;
-    height: 25rem;
+    height: 20rem;
     border-radius: 50%;
     display: flex;
     justify-content: center;
